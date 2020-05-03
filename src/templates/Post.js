@@ -14,7 +14,7 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => {
           <div className="post-info">
             <span>{date}</span> by{' '}
             <span>{author}</span>
-            <ul>
+            <ul className="tags">
               {tags.map(tag => (
                 <li key={tag}>
                   <Link to={`/tag/${slugify(tag)}`}>

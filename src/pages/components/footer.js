@@ -12,9 +12,8 @@ export default () =>
       <li><Link to="/contact/">Contact</Link></li>
     </ul>
     <ul>
-      <li><Link to="/">Recipes</Link></li>
-      <li><Link to="/about/">About</Link></li>
-      <li><Link to="/contact/">Contact</Link></li>
+      <li><Link to="/">Terms</Link></li>
+      <li><Link to="/about/">Privacy Policy</Link></li>
     </ul>
     <ul>
       <li><Link to="/">Recipes</Link></li>

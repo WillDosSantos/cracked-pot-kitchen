@@ -15,7 +15,7 @@ const SinglePost = ({data}) => {
       <span>{post.date}</span> by{" "}
       <span>{post.author}</span>
       <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html}}/>
-      <ul>
+      <ul className="tags">
         {post.tags.map(tag => (
           <li key={tag}>
             <Link to={`/tag/${slugify(tag)}`}>
