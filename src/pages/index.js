@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import Header from "./components/header"
-import "./styles/main.scss"
+import Layout from "./components/layout"
+
 import Hero from "./assets/images/hero-image.png"
 import { graphql, StaticQuery } from "gatsby"
 import Post from "../templates/Post"
@@ -9,8 +9,7 @@ import RecentPosts from "./components/recent"
 
 
 const IndexPage = () => (
-  <div>
-    <Header/>
+  <Layout>
     <section>
       <div className="content d-f content--hero">
         <div className="hero-info">
@@ -40,7 +39,7 @@ const IndexPage = () => (
         </div>
       )
     }}/>
-  </div>
+  </Layout>
 )
 
 const indexQuery = graphql`

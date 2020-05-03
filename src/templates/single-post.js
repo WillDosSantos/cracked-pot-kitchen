@@ -3,11 +3,14 @@ import {graphql, Link} from "gatsby"
 import Img from "gatsby-image"
 import { slugify } from "../util/utilityFunctions"
 
+import Layout from "../pages/components/layout"
+
 const SinglePost = ({data}) => {
   const post = data.markdownRemark.frontmatter
   return (
-    <div>
-      <Img className="post-image-top" fluid={post.featuredImage.childImageSharp.fluid}/>
+    <Layout>
+      <div className="content">
+            <Img className="post-image-top" fluid={post.featuredImage.childImageSharp.fluid}/>
       <h1>{post.title}</h1>
       <span>{post.date}</span> by{" "}
       <span>{post.author}</span>
@@ -21,7 +24,8 @@ const SinglePost = ({data}) => {
           </li>
         ))}
       </ul>
-    </div>
+      </div>
+    </Layout>
   )
 }
 

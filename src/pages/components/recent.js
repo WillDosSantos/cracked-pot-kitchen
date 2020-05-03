@@ -5,25 +5,28 @@ import Post from "../../templates/Post"
 
 const RecentPosts = () => (
   <section>
-    <h1>Recent Recipes</h1>
-    <StaticQuery query={recentQuery} render={data => {
-      return (
-        <div className="content content--posts">
-          {data.allMarkdownRemark.edges.map(({ node }) => (
-            <Post
-              key={node.id}
-              title={node.frontmatter.title}
-              author={node.frontmatter.author}
-              slug={node.fields.slug}
-              date={node.frontmatter.date}
-              body={node.excerpt}
-              fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
-              tags={node.frontmatter.tags}
-            />
-          ))}
-        </div>
-      )
-    }}/>
+    <div className="content">
+      <h1>Newest Recipes</h1>
+        <StaticQuery query={recentQuery} render={data => {
+          return (
+            <div className="content--posts">
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <Post
+                  key={node.id}
+                  title={node.frontmatter.title}
+                  author={node.frontmatter.author}
+                  slug={node.fields.slug}
+                  date={node.frontmatter.date}
+                  body={node.excerpt}
+                  fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                  tags={node.frontmatter.tags}
+                />
+              ))}
+            </div>
+          )
+        }}/>    
+    </div>
+
   </section>
 )
 
