@@ -1,5 +1,4 @@
 ---
-path: "/third-recipe"
 date: 2020-04-18
 title: "Homemade Beans"
 author: "Amaury dos Santos"

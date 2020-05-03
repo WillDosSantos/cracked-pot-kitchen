@@ -1,7 +1,6 @@
 ---
-path: "/first-recipe"
 date: 2020-04-20
-title: "Oven Roasted Meat"
+title: "New Post 4"
 author: "Amaury dos Santos"
 tags: ["steak", " Brazilian"]
 featuredImage: ../../../images/pastel.jpg

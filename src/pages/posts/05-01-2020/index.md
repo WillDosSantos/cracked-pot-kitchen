@@ -1,6 +1,6 @@
 ---
 date: 2020-05-01
-title: "Oven Roasted Meat"
+title: "New Post 3"
 author: "Amaury dos Santos"
 tags: ["steak", " Brazilian"]
 featuredImage: ../../../images/pastel.jpg
