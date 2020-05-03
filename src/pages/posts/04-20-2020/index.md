@@ -3,6 +3,8 @@ path: "/first-recipe"
 date: 2020-04-20
 title: "Oven Roasted Meat"
 author: "Amaury dos Santos"
+tags: ["steak", " Brazilian"]
+featuredImage: ../../../images/pastel.jpg
 ---
 
 Basic recipe for any type and weight of meat

@@ -4,6 +4,7 @@ date: 2020-04-18
 title: "Homemade Beans"
 author: "Amaury dos Santos"
 tags: ["food", "beans", " Brazilian"]
+featuredImage: ../../../images/pastel.jpg
 ---
 
 Separate and wash the beans and let them soak if you prefer, there are people who leave overnight, while others do not - it depends on how you want to cook and the preparation time.

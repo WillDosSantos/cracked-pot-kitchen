@@ -11,10 +11,19 @@ module.exports = {
     author: `Amaury F Dos Santos`,
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
