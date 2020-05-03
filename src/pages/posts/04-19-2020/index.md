@@ -3,7 +3,7 @@ path: "/second-recipe"
 date: 2020-04-19
 title: "Homemade Rice"
 author: "Amaury dos Santos"
-tags: ["beans", " Brazilian"]
+tags: ["sides", "Brazilian"]
 featuredImage: ../../../images/pastel.jpg
 ---
 
