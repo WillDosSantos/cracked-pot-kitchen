@@ -122,3 +122,11 @@ nav {
   color: #838383;
   margin: 0.5em 0 0.5em 0;
 }
+
+.content--posts {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}

@@ -5,6 +5,7 @@ import "./styles/main.scss"
 import Hero from "./assets/images/hero-image.png"
 import { graphql, StaticQuery } from "gatsby"
 import Post from "../templates/Post"
+import RecentPosts from "./components/recent"
 
 
 const IndexPage = () => (
@@ -20,11 +21,13 @@ const IndexPage = () => (
         <img src={Hero} alt="Hero Plate"/>
       </div>
     </section>
+    <RecentPosts/>
     <StaticQuery query={indexQuery} render={data => {
       return (
-        <div className="content">
+        <div className="content content--posts">
           {data.allMarkdownRemark.edges.map(({ node }) => (
-            <Post 
+            <Post
+              key={node.id}
               title={node.frontmatter.title}
               author={node.frontmatter.author}
               path={node.frontmatter.path}

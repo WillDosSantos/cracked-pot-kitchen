@@ -16,7 +16,7 @@ const Post = ({ title, author, path, date, body, fluid, tags }) => {
             <span>{author}</span>
             <ul>
               {tags.map(tag => (
-                <li>
+                <li key={tag}>
                   <Link to={`/tag/${slugify(tag)}`}>
                     {tag}
                   </Link>
