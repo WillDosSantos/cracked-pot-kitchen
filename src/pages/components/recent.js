@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import Post from "../../templates/Post"
 
 const RecentPosts = () => (
-  <section>
+  <section className="section--recent">
     <div className="content">
       <h1>Newest Recipes</h1>
         <StaticQuery query={recentQuery} render={data => {
