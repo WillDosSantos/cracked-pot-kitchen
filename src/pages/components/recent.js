@@ -6,7 +6,7 @@ import Post from "../../templates/Post"
 const RecentPosts = () => (
   <section className="section--recent">
     <div className="content">
-      <h1>Newest Recipes</h1>
+      <h1 className="section-header">Newest Recipes</h1>
         <StaticQuery query={recentQuery} render={data => {
           return (
             <div className="content--posts">

@@ -1,17 +1,28 @@
 ---
 date: 2020-05-01
-title: "New Post 3"
+title: "Roasted Beef"
 author: "Amaury dos Santos"
-tags: ["steak", " Brazilian"]
+tags: ["beef", "Brazilian", "entree"]
 featuredImage: ../../../images/pastel.jpg
 ---
 
-Basic recipe for any type and weight of meat
+# How to make oven roasted beef
 
-Need: Black pepper. Onion or garlic and salt to taste
+While the effects of COVID-19 have left a lot of things uncertain, we can still plan and hope for the future. One thing that is around the corner (if not already here) is summer time. And that means, a nice cool beverage while catching some rays outside.
+<br/>
 
-1- Clean the meat with a damp cloth, but do not wash it spari ti with vinegar or squeeze a lemon
-2- Place two teaspoons of salt for each kilo of meat and rub the meat thoroughly
-3- Put the meat on the oven grill with the fat part up if your meat do9es not have fat wrap bacon
-4- Bake. calculating the the time according to whether you want well done or not well done
-5- For beef recommend approximately 2 kilos weight is 40 min and 30 min for rare
+### Ingredients
+
+- Black pepper
+- Onion
+- Garlic
+- Salt to taste
+
+Time to cook: 1:00 hour
+
+### Instructions
+
+1. Clean the meat with a damp cloth,squeeze a lemon all over it
+2. Place two teaspoons of salt for each pound of meat and rub the meat thoroughly
+3. Put the meat on the oven grill with the fat part up if lean meat wrap strips of bacon around it
+4. For 2 pounds of beef cooking time 60 min covered with aluminium foil

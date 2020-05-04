@@ -119,6 +119,13 @@ nav {
   background-color: #5ED6A0;
 }
 
+.btn--sec {
+  color: #5ED6A0;
+  border: 1px solid #5ED6A0;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
 .tagline {
   font-size: 24px;
   color: #838383;
@@ -141,13 +148,21 @@ footer {
   ul {
     list-style: none;
 
+    li {
+      margin: 1em 0;
+      font-size: 14px;
+    }
+
     a {
       color: #fff;
       text-decoration: none;
-      font-size: 14px;
       margin: 1em 0;
     }
   }
+}
+
+.footer-logo {
+  max-width: 40px;
 }
 
 .content--grid_4 {
@@ -157,17 +172,23 @@ footer {
 }
 
 .post-image-top {
-  border-radius: 15px;
+  border-radius: 5px;
+}
+
+.single-post-header {
+  margin: 2em 0 2em 0;
+}
+
+.single-post-title {
+  font-size: 2em;
 }
 
 .section--recent {
   background-color: #F1F6F8;
-  padding: 6em 0 2em 0;
-  margin-bottom: 10em;
 }
 
 section {
-  padding: 5em 0;
+  padding: 4em 0;
 }
 
 .tags {
@@ -195,5 +216,36 @@ section {
   a {
     text-decoration: none;
     color: #000;
+  }
+}
+
+.section-header {
+  margin: 1em 0;
+  font-size: 2em;
+}
+
+article {
+  margin: 2em 0;
+  padding: 3em;
+  line-height: 1.7;
+
+  ul,
+  ol {
+    margin: 2em;
+
+    li {
+      margin: 10px 0;
+    }
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    border-bottom: 1px solid #c9c9c9;
+    padding: 1em 0;
+    margin: 40px 0 20px 0;
   }
 }

@@ -21,24 +21,29 @@ const IndexPage = () => (
       </div>
     </section>
     <RecentPosts/>
-    <StaticQuery query={indexQuery} render={data => {
-      return (
-        <div className="content content--posts">
-          {data.allMarkdownRemark.edges.map(({ node }) => (
-            <Post
-              key={node.id}
-              title={node.frontmatter.title}
-              author={node.frontmatter.author}
-              slug={node.fields.slug}
-              date={node.frontmatter.date}
-              body={node.excerpt}
-              fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
-              tags={node.frontmatter.tags}
-            />
-          ))}
-        </div>
-      )
-    }}/>
+    <section>
+      <div className="content">
+        <h1 className="section-header">Recipes</h1>
+        <StaticQuery query={indexQuery} render={data => {
+          return (
+            <div className="content content--posts">
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <Post
+                  key={node.id}
+                  title={node.frontmatter.title}
+                  author={node.frontmatter.author}
+                  slug={node.fields.slug}
+                  date={node.frontmatter.date}
+                  body={node.excerpt}
+                  fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                  tags={node.frontmatter.tags}
+                />
+              ))}
+            </div>
+          )
+        }}/>
+      </div>
+    </section>
   </Layout>
 )
 

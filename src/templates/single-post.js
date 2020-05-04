@@ -10,20 +10,27 @@ const SinglePost = ({data}) => {
   return (
     <Layout>
       <div className="content">
-            <Img className="post-image-top" fluid={post.featuredImage.childImageSharp.fluid}/>
-      <h1>{post.title}</h1>
-      <span>{post.date}</span> by{" "}
-      <span>{post.author}</span>
-      <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html}}/>
-      <ul className="tags">
-        {post.tags.map(tag => (
-          <li key={tag}>
-            <Link to={`/tag/${slugify(tag)}`}>
-              {tag}
-            </Link>
-          </li>
-        ))}
-      </ul>
+        <div className="single-post-header">
+          <h1 className="single-post-title">{post.title}</h1>
+          <span>{post.date}</span> by{" "}
+          <span>{post.author}</span>   
+          <ul className="tags">
+            {post.tags.map(tag => (
+              <li key={tag}>
+                <Link to={`/tag/${slugify(tag)}`}>
+                  {tag}
+                </Link>
+              </li>
+            ))}
+          </ul> 
+        </div>
+        <Img style={{
+          marginBottom: `2em`,
+        }} className="post-image-top" fluid={post.featuredImage.childImageSharp.fluid}/>
+       
+        <article>
+          <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html}}/>
+        </article>
       </div>
     </Layout>
   )

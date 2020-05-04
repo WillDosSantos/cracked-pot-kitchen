@@ -6,7 +6,7 @@ import { slugify } from "../util/utilityFunctions"
 const Post = ({ title, author, slug, date, body, fluid, tags }) => {
   return(
       <div className="post">
-        <Img className="post-image-top" fluid={fluid}/>
+        <Link to={slug}><Img className="post-image-top" fluid={fluid}/></Link>
         <div className="post-body">
           <h1 className="post-title">
             <Link to={slug}>{title}</Link>
@@ -25,7 +25,9 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => {
             </ul>
           </div>
           <div className="post-text">{body}</div>
-          <Link to={slug} className="btn">Read More</Link>
+          <Link to={slug} style={{
+            marginTop: `15px`
+          }} className="btn btn--sec btn--small">Read More</Link>
         </div>
       </div>
   )
