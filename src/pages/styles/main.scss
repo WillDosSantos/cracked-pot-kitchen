@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap");
 
 * {
   margin: 0;
@@ -9,20 +9,16 @@ html {
   height: 100%;
 }
 
-
 body {
   min-height: 100%;
   display: grid;
   grid-template-rows: 1fr auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
 
 .d-f {
   display: flex;
 }
-
-
 
 .content {
   max-width: 960px;
@@ -79,7 +75,7 @@ nav {
 }
 
 .input-container {
-  border: 1px solid #B2B2B2;
+  border: 1px solid #b2b2b2;
   border-radius: 20px;
   padding: 5px;
   width: 100%;
@@ -98,12 +94,11 @@ nav {
     padding: 5px 10px 5px 40px;
     width: 100%;
     border: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 
     &:focus {
       outline: none;
     }
-
   }
 }
 
@@ -211,7 +206,7 @@ footer {
   transition: all 0.1s ease-in;
 
   &:hover {
-    box-shadow: -20px 20px 0px rgba(23, 97, 255, 0.2);
+    box-shadow: -15px 15px 0px rgba(71, 217, 102, 0.2);
   }
 }
 
@@ -229,7 +224,7 @@ footer {
 }
 
 .section--recent {
-  background-color: #F1F6F8;
+  background-color: #f1f6f8;
 }
 
 section {
@@ -312,7 +307,7 @@ article {
 }
 
 .section--color {
-  background-color: #47D966;
+  background-color: #47d966;
   color: #fff;
 }
 

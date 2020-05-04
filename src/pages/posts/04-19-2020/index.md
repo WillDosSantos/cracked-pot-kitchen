@@ -1,20 +1,36 @@
 ---
 date: 2020-04-19
-title: "New Post 5"
+title: "Beef Acebolado Recipe"
 author: "Amaury dos Santos"
 tags: ["sides", "Brazilian"]
-featuredImage: ../../../images/pastel.jpg
+featuredImage: ../../../images/beef.png
 ---
 
-Basic recipe for any type of rice
+# How to make Beef Acebolado
 
-1- Separate 1 cup of rice ideal for 4 servings -
-2- Place 2 tablespoons of oil in a pan and let it warm up
-3- Place ½ thinly sliced onion
-4- Place ¼ teaspoon of ground garlic
-5- Putting ¾ teaspoon of salt more or less depends on taste
-6- Stir until the rice starts to turn golden
-6- Cover with two cups of cold water and bring to a boil
-7- When it starts to bubble, cover and reduce the heat to medium and cook 20 minutes
+Place holder text here
 
-This is the type of rice that is part of the diet of millions of people worldwide
+<br/>
+
+### Ingredients
+
+- 8 to 10 thin steaks
+- salt
+  -garlic
+  -onion
+- juice of 1 lemon
+- 1 bay leaf
+- black pepper
+- oil or butter for frying
+- vinegar
+- 3 whole onions cut into thin slices.
+
+Time to cook: 25 minutes
+
+### Instructions
+
+1. beat the steaks with the meat whisk to make them tender. Season with salt, garlic and lemon juice, add bay leaf and black pepper and let stand for half an hour
+
+2. In a frying pan put oil or butter to heat. When it is hot, fry the steaks, maximum 2 steaks at a time. Turning them until they reach the desired point and place them to serve on a dinner plate
+
+3. In the frying pan in the oil that was left, place the onions and stir them for 5 minutes and spread over the steak dish and serve hot.
