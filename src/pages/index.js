@@ -12,12 +12,22 @@ const IndexPage = () => (
   <Layout>
     <section>
       <div className="content d-f content--hero">
-        <div className="hero-info">
+        <div 
+          data-sal="slide-right"
+          data-sal-delay="300"
+          data-sal-duration="900"
+          data-sal-easing="ease" 
+          className="hero-info">
           <h1>Good food, crazy ideas, and lots of fun</h1>
           <p className="tagline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <a className="btn btn--primary" href="">Subscribe</a>
         </div>
-        <img src={Hero} alt="Hero Plate"/>
+        <img 
+          data-sal="slide-left"
+          data-sal-delay="300"
+          data-sal-duration="900"
+          data-sal-easing="ease" 
+          src={Hero} alt="Hero Plate"/>
       </div>
     </section>
     <RecentPosts/>

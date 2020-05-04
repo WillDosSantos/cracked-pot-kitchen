@@ -2,12 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Logo from "../assets/images/logo.svg"
+import Search from "../assets/images/search.svg"
 
 export default () => 
 <div>
   <nav>
-    <img className="logo" src={Logo} alt="Cracked Pot Kitchen Logo"/>
+    <Link to="/"><img className="logo" src={Logo} alt="Cracked Pot Kitchen Logo"/></Link>
     <div className="input-container">
+      <img src={Search} alt="search icon"/>
       <input type="search" name="search" placeholder="Search..."/>
     </div>
     <ul>

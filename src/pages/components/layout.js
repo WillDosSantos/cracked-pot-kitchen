@@ -3,6 +3,7 @@ import "./../styles/main.scss"
 
 import Header from './header'
 import Footer from './footer'
+import NewsLetter from './news-letter'
 
 class Template extends React.Component {
     render() {
@@ -12,6 +13,7 @@ class Template extends React.Component {
             <div>
                 <Header/>
                 {children}
+                <NewsLetter/>
                 <Footer/>
             </div>
         )

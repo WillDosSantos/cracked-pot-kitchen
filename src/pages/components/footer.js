@@ -2,6 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Logo from "../assets/images/footer-logo.svg"
+import Youtube from "../assets/images/youtube.svg"
+import Facebook from "../assets/images/facebook.svg"
+import Instagram from "../assets/images/instagram.svg"
 
 export default () => 
 <footer>
@@ -19,10 +22,22 @@ export default () =>
       <li><Link to="/">Terms</Link></li>
       <li><Link to="/about/">Privacy Policy</Link></li>
     </ul>
-    <ul>
-      <li><Link to="/">Facebook</Link></li>
-      <li><Link to="/about/">Instagram</Link></li>
-      <li><Link to="/contact/">Twitter</Link></li>
+    <ul className="social-media-links d-f">
+      <li>
+        <Link to="/">
+          <img src={Facebook} alt="Facebook icon"/>
+        </Link>
+      </li>
+      <li>
+        <Link to="/about/">
+          <img src={Youtube} alt="Youtube icon"/>
+        </Link>
+      </li>
+      <li>
+        <Link to="/contact/">
+          <img src={Instagram} alt="Instagram icon"/>
+        </Link>
+      </li>
     </ul>
   </div>
 </footer>
