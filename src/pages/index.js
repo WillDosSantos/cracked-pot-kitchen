@@ -19,7 +19,7 @@ const IndexPage = () => (
           data-sal-easing="ease" 
           className="hero-info">
           <h1>Good food, crazy ideas, and lots of fun</h1>
-          <p className="tagline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="tagline">Sharing recipes from our family's kitchen, to yours. We hope you enjoy.</p>
           <a className="btn btn--primary" href="">Subscribe</a>
         </div>
         <img 
