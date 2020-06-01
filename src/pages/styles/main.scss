@@ -170,9 +170,26 @@ nav {
 .content--posts {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   column-gap: 50px;
   row-gap: 50px;
+  padding: 1.5em;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .content--posts {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0em;
+
+    .post {
+      width: 100%;
+    }
+
+    .post-image-top {
+      width: 100%;
+    }
+  }
 }
 
 footer {
@@ -336,5 +353,11 @@ article {
     line-height: 1.5;
     margin: 10px 0px;
     font-size: 18px;
+  }
+}
+
+.post-image-main {
+  &:hover {
+    background-color: transparent;
   }
 }

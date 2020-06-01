@@ -35,7 +35,7 @@ const SinglePost = ({data}) => {
         </div>
         <Img style={{
           marginBottom: `2em`,
-        }} className="post-image-top" fluid={post.featuredImage.childImageSharp.fluid}/>
+        }} className="post-image-main" fluid={post.featuredImage.childImageSharp.fluid}/>
        
         <article>
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html}}/>

@@ -7,7 +7,7 @@ tags: ["beef", "Churrasquinho"]
 featuredImage: ../../../images/drink-1.png
 ---
 
-# How to make Meat Rocambole - Brazilian Meatloaf
+# How to make Meat Skewers - Brazilian Meatloaf
 
 The skewer is derived from a tradition initiated by the cowboys of Brazil. In the last century during the journey of transporting cattle from the west to the south of the country. The cowboys stopped to rest and to the cattle because the trip was long and tiring. To feed themselves, they killed cattle and cut their cuts, which were planned along the way to be taken, and among them the cowboys took turns in the kitchen to help prepare food during the day.
 
