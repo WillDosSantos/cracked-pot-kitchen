@@ -12,8 +12,17 @@ const SinglePost = ({data}) => {
       <div className="content">
         <div className="single-post-header">
           <h1 className="single-post-title">{post.title}</h1>
-          <span>{post.date}</span> by{" "}
-          <span>{post.author}</span>   
+          <span>{post.date}</span>
+          <div className="d-f"
+            style={{
+              alignItems: 'center',
+              padding: '0.5em 0',
+            }}
+            >
+            by{" "}
+            <Img className="author-avatar f-1" fluid={post.authorImage.childImageSharp.fluid}/>
+            <span>{post.author}</span>
+          </div>
           <ul className="tags">
             {post.tags.map(tag => (
               <li key={tag}>
@@ -49,6 +58,13 @@ export const postQuery = graphql`
         featuredImage{
           childImageSharp{
             fluid(maxWidth: 700){
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        authorImage{
+          childImageSharp{
+            fluid(maxWidth: 100){
               ...GatsbyImageSharpFluid
             }
           }

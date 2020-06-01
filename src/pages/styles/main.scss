@@ -26,6 +26,18 @@ body {
   margin: 0 auto;
 }
 
+.author-avatar {
+  border-radius: 40px;
+  max-width: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+.f-1 {
+  flex: 1;
+}
+
 nav {
   display: flex;
   justify-content: space-between;

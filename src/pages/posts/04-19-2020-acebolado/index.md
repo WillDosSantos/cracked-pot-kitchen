@@ -2,6 +2,7 @@
 date: 2020-04-19
 title: "Beef Acebolado Recipe"
 author: "Amaury dos Santos"
+authorImage: ../../../images/amaury.jpg
 tags: ["sides", "Brazilian"]
 featuredImage: ../../../images/beef.png
 ---

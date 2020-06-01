@@ -7,7 +7,9 @@ import Search from "../assets/images/search.svg"
 export default () => 
 <div>
   <nav>
-    <Link to="/"><img className="logo" src={Logo} alt="Cracked Pot Kitchen Logo"/></Link>
+    <Link className="logo-container f-1" to="/">
+      <img className="logo" src={Logo} alt="Craqued Pot Kitchen Logo"/>
+    </Link>
     <div className="input-container">
       <img src={Search} alt="search icon"/>
       <input type="search" name="search" placeholder="Search..."/>

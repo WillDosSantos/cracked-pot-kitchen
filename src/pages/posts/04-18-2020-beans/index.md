@@ -2,13 +2,18 @@
 date: 2020-04-18
 title: "Brazilian Country Beans Recipe"
 author: "Amaury dos Santos"
+authorImage: ../../../images/amaury.jpg
 tags: ["food", "beans", " Brazilian"]
 featuredImage: ../../../images/beans.png
 ---
 
 # How to make Brazilian Country Beans
 
-Place holder text here
+Beans are a staple food in most cultures. In traveling throughout the world, the most common and affordable food that people usually consume are beans and some type of starch. In Uganda, locals typically consume a plate known as Comando (named for the famous Arnold Schwarzenegger movie) which consists of beans and posho
+
+In Mexico, beans are a part of most dishes when growing up in that culture. And it is similar in Brazilian.
+
+This recipe is one that we use for it's simplicity and flavor. It is something that comes with our heritage like the ones mentioned above. We hope you enjoy!
 
 <br/>
 

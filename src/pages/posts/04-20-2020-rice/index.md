@@ -2,6 +2,7 @@
 date: 2020-04-20
 title: "Paulista Rice"
 author: "Amaury dos Santos"
+authorImage: ../../../images/amaury.jpg
 tags: ["sides", "Brazilian"]
 featuredImage: ../../../images/rice.png
 ---

@@ -2,6 +2,7 @@
 date: 2020-05-01
 title: "Roasted Beef"
 author: "Amaury dos Santos"
+authorImage: ../../../images/amaury.jpg
 tags: ["beef", "Brazilian", "entree"]
 featuredImage: ../../../images/pastel.jpg
 ---
